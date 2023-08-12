@@ -1,8 +1,9 @@
+
 > Note , I have made the design according to Screen Size (1920px x 1080px) as per given details, So please view the given website design in the giver screen size
 
 # EdYoda Coding Assignment - Payments Landing Page
 
-![Screenshot](./screenshot.png)
+![Screenshot](./public/screenshot.png)
 
 This project is a part of the EdYoda Coding Assignment, where the goal was to create a payments landing page based on the provided Figma design using ReactJS. The page includes interactive functionality to handle plan selection, calculate pricing, and display discounts.
 
@@ -26,11 +27,11 @@ To set up and run the project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-     git clone <repository_url>
+     git clone https://github.com/raiv200/EdYoda-Assignment
    ```
 2. Navigate to project directory
    ```bash
-    cd EdYoda-Coding-Assignment
+    cd EdYoda-Assignment
    ```
 3. Install Dependencies
    ```bash
