@@ -118,7 +118,6 @@ body {
   border-radius: 52px;
   color: #FFFFFF;
   font-size: 16px;
-  ;
   font-weight: 700;
   text-align: center;
   border: none;
@@ -127,6 +126,11 @@ body {
   margin-left: 64px;
 }
 
+.btn:hover {
+  background-image: linear-gradient(to right, #0048FF, #0096FF);
+  cursor: pointer;
+  transition: all 0.5s ease-in;
+}
 
 /*///////////// Hero Section CSS ///////////////// */
 
@@ -408,6 +412,11 @@ body {
   margin-bottom: 16px;
   position: relative;
 }
+.input-2:hover {
+  opacity:0.8;
+  cursor: pointer;
+  transition: all 0.5s;
+}
 .input-2.selected{
   background-color: #D7EDDD;
   border-color: #47BA68;
@@ -558,6 +567,11 @@ body {
   border-radius: 6px;
   background-color: #FADED3;
 }
+.alert:hover{
+  background-color: #f9d4c5;
+  cursor: pointer;
+  transition: all 0.5s;
+}
 
 .alert-header {
   display: flex;
@@ -604,7 +618,7 @@ body {
   font-weight: 400;
   color: #DE4313;
   text-align: center;
-  margin-left: 4px
+  margin-left: 8px;
 }
 
 .total-price-container {
@@ -671,6 +685,12 @@ body {
   cursor: pointer;
 
 }
+.btn-cancel:hover {
+   background-color: #DE4313;
+   color:#FFFFFF;
+  
+   transition: all 0.3s ease-in;
+}
 
 .btn-success {
   border: none;
@@ -684,6 +704,13 @@ body {
   background-color: #47BA68;
   border-radius: 4px;
   cursor: pointer;
+}
+
+.btn-success:hover {
+  background-color: #D7EDDD;
+  transition: all 0.3s ease-in;
+  border:2px solid #47BA68;
+  color:#000000;
 }
 
 
